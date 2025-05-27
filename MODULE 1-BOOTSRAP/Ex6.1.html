@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Flex Navbar</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Or use CDN -->
+  <style>
+    .nav-link {
+      padding: 10px 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .nav-link:hover {
+      background-color: #0056b3;
+      color: white;
+    }
+    .custom-navbar {
+      background-color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="custom-navbar d-flex flex-column flex-md-row justify-content-between align-items-center p-3">
+    <a class="nav-link" href="#">Home</a>
+    <a class="nav-link" href="#">About</a>
+    <a class="nav-link" href="#">Services</a>
+    <a class="nav-link" href="#">Contact</a>
+  </nav>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

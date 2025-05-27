@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Two-Column Layout</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- or use CDN -->
+  <style>
+    .sidebar {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-right: 1px solid #dee2e6;
+      height: 100vh;
+    }
+    .content {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 sidebar">
+        <h4>Sidebar</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-9 content">
+        <h2>Main Content Area</h2>
+        <p>This is the main content section. On larger screens, it takes up 75% of the row width, while the sidebar takes 25%.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script> <!-- or use CDN -->
+</body>
+</html>

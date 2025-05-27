@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Column Reordering</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Use downloaded Bootstrap or CDN -->
+  <style>
+    .box {
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+    .box-1 {
+      background-color: #007bff;
+    }
+    .box-2 {
+      background-color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6 order-md-2 box box-1">
+        Content A (Second on medium+ screens)
+      </div>
+      <div class="col-md-6 order-md-1 box box-2">
+        Content B (First on medium+ screens)
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
