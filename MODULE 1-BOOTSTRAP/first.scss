@@ -1,0 +1,7 @@
+$primary: #ff5722;        
+$border-radius: 1rem;
+@import "custom-variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+  background-color: #f0f0f0;
+}
